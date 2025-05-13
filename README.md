@@ -52,7 +52,7 @@ For me, it’s all about building innovative solutions, deepening my understandi
 
 
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=shikharjaiswal-in&layout=compact)]
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=shikharjaiswal-in&layout=compact)][]
 
 
 
