@@ -25,8 +25,8 @@ For me, it’s all about building innovative solutions, deepening my understandi
 [1]: https://www.facebook.com/shikhar.jai1
 [2]: https://www.instagram.com/_shikhar_jais
 [3]: https://www.twitter.com/_shikhar_jais
-[4]: https://www.linkedin.com/in/shikhar1020jais
-[5]: https://www.github.com/shikhar1020jais1
+[4]: https://www.linkedin.com/in/shikharjaiswal-in
+[5]: https://www.github.com/shikharjaiswal-in
 [6]: https://in.pinterest.com/shikhar1020jais
 <!-- [7]: https://shikhar-jais.tumblr.com -->
 
