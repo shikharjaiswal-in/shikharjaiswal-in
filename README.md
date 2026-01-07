@@ -31,7 +31,6 @@ For me, it’s all about building innovative solutions, deepening my understandi
 [13]: https://dev.to/shikhar1020jais1
 [14]: https://medium.com/@shikhar1020jais1
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=shikharjaiswal-in&layout=compact)
 
 
 
