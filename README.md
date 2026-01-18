@@ -33,22 +33,24 @@ My work sits at the intersection of <b>AI, robotics, embedded systems, and softw
   <img src="https://img.shields.io/badge/Embedded%20Systems-6E6E6E?style=flat"/>
 
 </p>
-
-
+<br/>
+<p align="center"><b>🌱 Beyond Code & Development </b></p>
 <p align="center">
   <img src="https://img.shields.io/badge/Strategic%20Games-♟️-lightgrey?style=flat"/>
   <img src="https://img.shields.io/badge/Research%20&%20Technical%20Reading-📄-lightgrey?style=flat"/>
   <img src="https://img.shields.io/badge/Creative%20Series%20Exploration-🎬-lightgrey?style=flat"/>
 </p>
 
-<p align="center"><b>🌱Beyond Code - </b> I believe <b>learning never stops</b>, and that sharing knowledge accelerates innovation.</p>
-
+<p align="center"><b>I believe <b>learning never stops</b>, and that sharing knowledge accelerates innovation.</p>
+<br/>
+<br/>
 <p align="center">
   <img src="https://img.shields.io/badge/Freelancing-Available-success?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Consulting-Available-success?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Collaboration-Welcome-success?style=for-the-badge"/>
 </p>
-
+<br/>
+<br/>
 
 <p align="center">
   <a href="mailto:connect@shikharjaiswal.in">
