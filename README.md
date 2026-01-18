@@ -34,7 +34,7 @@ My work sits at the intersection of <b>AI, robotics, embedded systems, and softw
 
 </p>
 <br/>
-<p align="center"><b>🌱 Beyond Code & Development </b></p>
+<p align="center"><b>🌱 Beyond Development & Deployment</b></p>
 <p align="center">
   <img src="https://img.shields.io/badge/Strategic%20Games-♟️-lightgrey?style=flat"/>
   <img src="https://img.shields.io/badge/Research%20&%20Technical%20Reading-📄-lightgrey?style=flat"/>
