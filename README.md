@@ -10,15 +10,10 @@
 </p>
 
 <p align="center">
-  <a href="https://shikharjaiswal.in">
-    <img src="https://img.shields.io/badge/Website-shikharjaiswal.in-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
-  </a>
-  <a href="https://www.linkedin.com/in/shikharjaiswal-in">
-    <img src="https://img.shields.io/badge/LinkedIn-Shikhar%20Jaiswal-0A66C2?style=for-the-badge&logo=linkedin"/>
-  </a>
-  <a href="https://twitter.com/_shikhar_jais">
-    <img src="https://img.shields.io/badge/X-@_shikhar_jais-000000?style=for-the-badge&logo=x"/>
-  </a>
+  <a href="https://shikharjaiswal.in"><img src="https://img.shields.io/badge/Website-000000?style=for-the-badge&logo=vercel&logoColor=white"/></a>
+  <a href="https://www.linkedin.com/in/shikharjaiswal-in"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="https://twitter.com/_shikhar_jais"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white"/></a>
+  <a href="https://github.com/shikharjaiswal-in"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
 </p>
 
 ---
