@@ -49,8 +49,6 @@ My work sits at the intersection of <b>AI, robotics, embedded systems, and softw
   <img src="https://img.shields.io/badge/Consulting-Available-success?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Collaboration-Welcome-success?style=for-the-badge"/>
 </p>
-<br/>
-<br/>
 
 <p align="center">
   <a href="mailto:connect@shikharjaiswal.in">
