@@ -43,7 +43,6 @@ My work sits at the intersection of <b>AI, robotics, embedded systems, and softw
 
 <p align="center"><b>I believe <b>learning never stops</b>, and that sharing knowledge accelerates innovation.</p>
 <br/>
-<br/>
 <p align="center">
   <img src="https://img.shields.io/badge/Freelancing-Available-success?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Consulting-Available-success?style=for-the-badge"/>
