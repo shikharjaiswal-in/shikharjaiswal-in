@@ -16,7 +16,6 @@
   <a href="https://github.com/shikharjaiswal-in"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
 </p>
 
-<br/>
 
 <p align="center">
 ⚙️ I’m a technologist focused on building <b>production-ready intelligent systems</b> that operate in real-world environments.  
