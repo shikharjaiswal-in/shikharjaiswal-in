@@ -1,15 +1,7 @@
-<!-- Animated hero: flying drone (spinning rotors), a rover crossing the surface,
-     an articulating robotic arm, a sweeping radar, and the name typing in.
-     Pure SVG/SMIL animation so it plays inside GitHub's <img> rendering (no JS). -->
+<!-- Animated hero (name + taglines are rendered INSIDE the SVG): flying drone,
+     scout drone, rover, robotic arm, satellite, sweeping radar. Borderless. -->
 <p align="center">
   <img src="./assets/hero.svg" width="1000" alt="Shikhar Jaiswal — Building intelligent, real-world systems: AI, Robotics, Unmanned Systems, Emerging Technologies" />
-</p>
-
-<h3 align="center">Hi 👋, I'm Shikhar Jaiswal</h3>
-
-<p align="center">
-  <b>Building intelligent, real-world systems</b><br/>
-  AI • Robotics • Unmanned Systems • Emerging Technologies
 </p>
 
 <p align="center">
@@ -24,14 +16,15 @@
 </p>
 
 <p align="center">
-  <img src="./assets/divider.svg" width="1000" alt="" />
-</p>
-
-<p align="center">
 ⚙️ I’m a technologist focused on building <b>production-ready intelligent systems</b> that operate in real-world environments.  
 My work sits at the intersection of <b>AI, robotics, embedded systems, and software engineering</b>, where ideas evolve from <b>concept → prototype → scalable platforms</b>.
 </p>
-<br/>
+
+<!-- Animated capabilities: one live icon per skill tag below -->
+<p align="center">
+  <img src="./assets/capabilities.svg" width="1000" alt="Capabilities: AI, Robotics, Unmanned Systems, Real-Time Systems, Product Engineering, End-to-End Solutions, Embedded Systems" />
+</p>
+
 <p align="center">
   <img src="https://img.shields.io/badge/Artificial%20Intelligence-222222?style=flat"/>
   <img src="https://img.shields.io/badge/Robotics%20&%20Autonomous%20Systems-00599C?style=flat"/>
@@ -40,15 +33,16 @@ My work sits at the intersection of <b>AI, robotics, embedded systems, and softw
   <img src="https://img.shields.io/badge/Product%20Engineering-444444?style=flat"/>
   <img src="https://img.shields.io/badge/End--to--End%20Solutions-8E9B5E?style=flat"/>
   <img src="https://img.shields.io/badge/Embedded%20Systems-6E6E6E?style=flat"/>
-
-</p>
-
-<p align="center">
-  <img src="./assets/divider.svg" width="1000" alt="" />
 </p>
 
 <br/>
 <p align="center"><b>🌱 Beyond Development & Deployment</b></p>
+
+<!-- Animated interests -->
+<p align="center">
+  <img src="./assets/beyond.svg" width="1000" alt="Beyond development: Strategic Games, Technical Reading, Series Exploration" />
+</p>
+
 <p align="center">
   <img src="https://img.shields.io/badge/Strategic%20Games-♟️-lightgrey?style=flat"/>
   <img src="https://img.shields.io/badge/Research%20&%20Technical%20Reading-📄-lightgrey?style=flat"/>
@@ -56,10 +50,6 @@ My work sits at the intersection of <b>AI, robotics, embedded systems, and softw
 </p>
 
 <p align="center"><b>I believe <b>learning never stops</b>, and that sharing knowledge accelerates innovation.</p>
-
-<p align="center">
-  <img src="./assets/divider.svg" width="1000" alt="" />
-</p>
 
 <br/>
 <p align="center">
@@ -78,8 +68,7 @@ My work sits at the intersection of <b>AI, robotics, embedded systems, and softw
   <i>Building innovative solutions at the intersection of AI, robotics, and emerging technologies.</i>
 </p>
 
-<!-- Animated footer: comms towers pulsing signal, a rover convoy, a passing
-     satellite — borderless, fades into the page. -->
+<!-- Animated footer: comms towers, rover convoy, satellite. Borderless. -->
 <p align="center">
   <img src="./assets/footer.svg" width="1000" alt="" />
 </p>
