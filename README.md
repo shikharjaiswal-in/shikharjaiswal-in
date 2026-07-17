@@ -74,7 +74,12 @@ My work sits at the intersection of <b>AI, robotics, embedded systems, and softw
   </a>
 </p>
 
-
 <p align="center">
   <i>Building innovative solutions at the intersection of AI, robotics, and emerging technologies.</i>
+</p>
+
+<!-- Animated footer: comms towers pulsing signal, a rover convoy, a passing
+     satellite — borderless, fades into the page. -->
+<p align="center">
+  <img src="./assets/footer.svg" width="1000" alt="" />
 </p>
