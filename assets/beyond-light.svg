@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="150" viewBox="0 0 1000 150" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+  <defs>
+    <linearGradient id="bl" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#000"/><stop offset="1" stop-color="#000" stop-opacity="0"/></linearGradient>
+    <linearGradient id="br" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000"/></linearGradient>
+    <linearGradient id="bt" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#000"/><stop offset="1" stop-color="#000" stop-opacity="0"/></linearGradient>
+    <linearGradient id="bb" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000"/></linearGradient>
+    <mask id="bfade">
+      <rect width="1000" height="150" fill="#fff"/>
+      <rect x="0" width="200" height="150" fill="url(#bl)"/>
+      <rect x="800" width="200" height="150" fill="url(#br)"/>
+      <rect x="0" y="0" width="1000" height="20" fill="url(#bt)"/>
+      <rect x="0" y="130" width="1000" height="20" fill="url(#bb)"/>
+    </mask>
+  </defs>
+
+  <g mask="url(#bfade)">
+
+    <!-- ============ Strategic Games — chess ============ -->
+    <g transform="translate(300,64)">
+      <!-- board squares -->
+      <g>
+        <rect x="-30" y="20" width="12" height="12" fill="#e3e9ef"/><rect x="-18" y="20" width="12" height="12" fill="#b9d4ee"/><rect x="-6" y="20" width="12" height="12" fill="#e3e9ef"/><rect x="6" y="20" width="12" height="12" fill="#b9d4ee"/><rect x="18" y="20" width="12" height="12" fill="#e3e9ef"/>
+      </g>
+      <!-- knight (bobs + slides one square) -->
+      <g fill="#2a323c">
+        <animateTransform attributeName="transform" type="translate" values="0 0; 0 -6; 12 -6; 12 0; 12 0; 0 0" keyTimes="0;0.15;0.4;0.55;0.85;1" dur="4s" repeatCount="indefinite"/>
+        <path d="M-6 18 C-8 8 -2 6 -2 2 C-6 4 -8 2 -6 -3 C-4 -8 2 -10 4 -6 C8 -4 9 2 9 8 L9 18 Z" stroke="#6e7c8a"/>
+        <circle cx="1" cy="-3" r="1" fill="#0d1117"/>
+      </g>
+      <g fill="#0e93ad">
+        <circle cx="24" cy="26" r="2"><animate attributeName="opacity" values="0;1;0" dur="4s" begin="0.5s" repeatCount="indefinite"/></circle>
+      </g>
+      <text x="0" y="56" fill="#57606a" font-size="11" text-anchor="middle">Strategic Games</text>
+    </g>
+
+    <!-- ============ Research & Technical Reading — book ============ -->
+    <g transform="translate(500,60)">
+      <!-- book covers -->
+      <path d="M0 -14 L-30 -8 L-30 22 L0 28 Z" fill="#b9d4ee" stroke="#5b8dd9" stroke-opacity="0.6"/>
+      <path d="M0 -14 L30 -8 L30 22 L0 28 Z" fill="#cfe2f3" stroke="#5b8dd9" stroke-opacity="0.6"/>
+      <line x1="0" y1="-14" x2="0" y2="28" stroke="#5b8dd9" stroke-opacity="0.5"/>
+      <!-- turning page -->
+      <path d="M0 -12 L-26 -6 L-26 20 L0 26 Z" fill="#2a323c" opacity="0.9">
+        <animateTransform attributeName="transform" type="skewX" values="0;0;0" dur="0.1s" repeatCount="1"/>
+        <animate attributeName="d" values="M0 -12 L-26 -6 L-26 20 L0 26 Z; M0 -12 L26 -6 L26 20 L0 26 Z; M0 -12 L26 -6 L26 20 L0 26 Z; M0 -12 L-26 -6 L-26 20 L0 26 Z" keyTimes="0;0.35;0.7;1" dur="3.4s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.9;0.5;0.9;0.5;0.9" keyTimes="0;0.2;0.35;0.55;1" dur="3.4s" repeatCount="indefinite"/>
+      </path>
+      <!-- text lines on right page -->
+      <g stroke="#57606a" stroke-width="1.2" stroke-opacity="0.7">
+        <line x1="6" y1="-4" x2="24" y2="-1"/><line x1="6" y1="2" x2="24" y2="5"/><line x1="6" y1="8" x2="20" y2="10"/>
+      </g>
+      <text x="0" y="56" fill="#57606a" font-size="11" text-anchor="middle">Technical Reading</text>
+    </g>
+
+    <!-- ============ Creative Series Exploration — film reel ============ -->
+    <g transform="translate(700,60)">
+      <!-- clapperboard -->
+      <g>
+        <rect x="-26" y="-4" width="52" height="30" rx="2" fill="#eef1f5" stroke="#6e7c8a"/>
+        <g transform="translate(-26,-4)" transform-origin="-26 -4">
+          <animateTransform attributeName="transform" type="rotate" values="0 -26 -4; -22 -26 -4; 0 -26 -4; 0 -26 -4" keyTimes="0;0.15;0.3;1" dur="3s" repeatCount="indefinite"/>
+          <rect x="0" y="-10" width="52" height="8" rx="1" fill="#e3e9ef" stroke="#6e7c8a"/>
+          <g fill="#2a323c"><rect x="2" y="-9" width="6" height="6" transform="skewX(-20)"/><rect x="16" y="-9" width="6" height="6" transform="skewX(-20)"/><rect x="30" y="-9" width="6" height="6" transform="skewX(-20)"/></g>
+        </g>
+        <g stroke="#57606a" stroke-width="1.2" stroke-opacity="0.6"><line x1="-18" y1="6" x2="18" y2="6"/><line x1="-18" y1="14" x2="10" y2="14"/></g>
+      </g>
+      <!-- play glow -->
+      <circle cx="14" cy="18" r="5" fill="#b9d4ee" stroke="#0e93ad"/>
+      <path d="M12 15 L18 18 L12 21 Z" fill="#0e93ad"><animate attributeName="opacity" values="1;0.3;1" dur="1.4s" repeatCount="indefinite"/></path>
+      <text x="0" y="52" fill="#57606a" font-size="11" text-anchor="middle">Series Exploration</text>
+    </g>
+
+  </g>
+</svg>

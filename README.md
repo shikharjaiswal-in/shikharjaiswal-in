@@ -1,7 +1,11 @@
-<!-- Animated hero (name + taglines are rendered INSIDE the SVG): flying drone,
-     scout drone, rover, robotic arm, satellite, sweeping radar. Borderless. -->
+<!-- Animated hero (name + taglines rendered INSIDE the SVG): drone, scout drone,
+     drone swarm, rover, robot dog, robotic arm, satellite, sweeping radar.
+     Borderless; theme-aware via <picture>. -->
 <p align="center">
-  <img src="./assets/hero.svg" width="1000" alt="Shikhar Jaiswal — Building intelligent, real-world systems: AI, Robotics, Unmanned Systems, Emerging Technologies" />
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
+    <img src="./assets/hero.svg" width="1000" alt="Shikhar Jaiswal — Building intelligent, real-world systems: AI, Robotics, Unmanned Systems, Emerging Technologies" />
+  </picture>
 </p>
 
 <p align="center">
@@ -20,9 +24,18 @@
 My work sits at the intersection of <b>AI, robotics, embedded systems, and software engineering</b>, where ideas evolve from <b>concept → prototype → scalable platforms</b>.
 </p>
 
+<!-- Typing terminal card: whoami, focus, build pipeline, availability.
+     Stays dark on both themes (terminals are dark). -->
+<p align="center">
+  <img src="./assets/terminal.svg" width="680" alt="Terminal: whoami — Shikhar Jaiswal; focus — AI, Robotics, Unmanned Systems, Emerging Technologies; pipeline — concept to prototype to scalable platforms; status — freelancing, consulting, collaboration available" />
+</p>
+
 <!-- Animated capabilities: one live icon per skill tag below -->
 <p align="center">
-  <img src="./assets/capabilities.svg" width="1000" alt="Capabilities: AI, Robotics, Unmanned Systems, Real-Time Systems, Product Engineering, End-to-End Solutions, Embedded Systems" />
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="./assets/capabilities-light.svg">
+    <img src="./assets/capabilities.svg" width="1000" alt="Capabilities: AI, Robotics, Unmanned Systems, Real-Time Systems, Product Engineering, End-to-End Solutions, Embedded Systems" />
+  </picture>
 </p>
 
 <p align="center">
@@ -40,7 +53,10 @@ My work sits at the intersection of <b>AI, robotics, embedded systems, and softw
 
 <!-- Animated interests -->
 <p align="center">
-  <img src="./assets/beyond.svg" width="1000" alt="Beyond development: Strategic Games, Technical Reading, Series Exploration" />
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="./assets/beyond-light.svg">
+    <img src="./assets/beyond.svg" width="1000" alt="Beyond development: Strategic Games, Technical Reading, Series Exploration" />
+  </picture>
 </p>
 
 <p align="center">
@@ -68,7 +84,11 @@ My work sits at the intersection of <b>AI, robotics, embedded systems, and softw
   <i>Building innovative solutions at the intersection of AI, robotics, and emerging technologies.</i>
 </p>
 
-<!-- Animated footer: comms towers, rover convoy, satellite. Borderless. -->
+<!-- Animated footer: comms towers, rover convoy, satellite, rocket launch.
+     Borderless; theme-aware. -->
 <p align="center">
-  <img src="./assets/footer.svg" width="1000" alt="" />
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="./assets/footer-light.svg">
+    <img src="./assets/footer.svg" width="1000" alt="" />
+  </picture>
 </p>
