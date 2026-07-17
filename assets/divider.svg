@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="54" viewBox="0 0 1000 54" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+  <defs>
+    <linearGradient id="dfade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0a0e14" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#0a0e14" stop-opacity="0"/>
+      <stop offset="1" stop-color="#0a0e14" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- circuit traces -->
+  <g stroke="#1f6feb" stroke-opacity="0.35" stroke-width="1.5" fill="none">
+    <path d="M0 27 H180 l14 -14 H360"/>
+    <path d="M360 13 H520 l14 14 H700"/>
+    <path d="M700 27 H820 l14 14 H1000"/>
+    <path d="M0 41 H120 l12 -14 H300"/>
+    <path d="M540 41 H660 l14 -14 H1000"/>
+  </g>
+
+  <!-- nodes -->
+  <g fill="#0d1420" stroke="#1f6feb">
+    <circle cx="180" cy="27" r="4"/><circle cx="360" cy="13" r="4"/>
+    <circle cx="520" cy="13" r="4"/><circle cx="700" cy="27" r="4"/>
+    <circle cx="820" cy="27" r="4"/><circle cx="120" cy="41" r="4"/>
+    <circle cx="660" cy="41" r="4"/>
+  </g>
+
+  <!-- travelling data pulses -->
+  <g fill="#22d3ee">
+    <circle r="3"><animateMotion path="M0 27 H180 l14 -14 H360" dur="3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" dur="3s" repeatCount="indefinite"/></circle>
+    <circle r="3" fill="#58a6ff"><animateMotion path="M360 13 H520 l14 14 H700" dur="2.6s" begin="0.6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" dur="2.6s" begin="0.6s" repeatCount="indefinite"/></circle>
+    <circle r="3" fill="#818cf8"><animateMotion path="M700 27 H820 l14 14 H1000" dur="2.4s" begin="0.3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" dur="2.4s" begin="0.3s" repeatCount="indefinite"/></circle>
+    <circle r="3" fill="#39d353"><animateMotion path="M540 41 H660 l14 -14 H1000" dur="3.2s" begin="1s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" dur="3.2s" begin="1s" repeatCount="indefinite"/></circle>
+    <circle r="3"><animateMotion path="M0 41 H120 l12 -14 H300" dur="2.8s" begin="1.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" dur="2.8s" begin="1.4s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- pulsing node cores -->
+  <g fill="#22d3ee">
+    <circle cx="180" cy="27" r="1.8"><animate attributeName="opacity" values="1;0.2;1" dur="1.8s" repeatCount="indefinite"/></circle>
+    <circle cx="520" cy="13" r="1.8"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.1s" repeatCount="indefinite"/></circle>
+    <circle cx="820" cy="27" r="1.8"><animate attributeName="opacity" values="1;0.2;1" dur="1.6s" repeatCount="indefinite"/></circle>
+    <circle cx="660" cy="41" r="1.8"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.4s" repeatCount="indefinite"/></circle>
+  </g>
+</svg>
