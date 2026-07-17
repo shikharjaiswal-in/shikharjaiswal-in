@@ -5,7 +5,8 @@ Reads each dark asset and rewrites its color tokens to light-mode equivalents,
 producing assets/<name>-light.svg. The README serves them via <picture> +
 prefers-color-scheme so GitHub picks the right one per theme.
 
-terminal.svg is intentionally excluded -- a terminal stays dark in both themes.
+terminal.svg gets its own override map (window chrome, shadow, and text need
+different treatment than the scene assets).
 
 Run after any edit to the dark assets:
     python scripts/make_light_theme.py
@@ -15,7 +16,7 @@ import os
 HERE = os.path.dirname(os.path.abspath(__file__))
 ASSETS = os.path.join(HERE, "..", "assets")
 
-FILES = ["hero.svg", "capabilities.svg", "beyond.svg", "footer.svg"]
+FILES = ["hero.svg", "capabilities.svg", "beyond.svg", "footer.svg", "terminal.svg"]
 
 # dark -> light token map. Machines become "line art": light fills, medium
 # strokes. Scene backgrounds fade to white so the borderless mask melts into
@@ -53,11 +54,24 @@ COLOR_MAP = {
     "#f2cc60": "#b08800",
 }
 
+# terminal-specific: light window chrome (GitHub-light greys), softer shadow,
+# near-black text -- a light macOS-style terminal rather than inverted line art.
+TERMINAL_OVERRIDES = {
+    "#131a24": "#ffffff",   # window gradient top
+    "#0d1117": "#f6f8fa",   # window gradient bottom
+    "#30363d": "#d0d7de",   # border / separator / progress track stroke
+    "#010409": "#8d99a8",   # drop shadow
+    "#c9d1d9": "#24292f",   # command + output text
+    "#e6edf3": "#1f2328",   # name
+    "#39d353": "#1a7f37",   # prompt / progress green
+}
+
 for name in FILES:
     src = os.path.join(ASSETS, name)
     dst = os.path.join(ASSETS, name.replace(".svg", "-light.svg"))
+    cmap = {**COLOR_MAP, **TERMINAL_OVERRIDES} if name == "terminal.svg" else COLOR_MAP
     svg = open(src, encoding="utf-8").read()
-    for dark, light in COLOR_MAP.items():
+    for dark, light in cmap.items():
         svg = svg.replace(dark, light)
     with open(dst, "w", encoding="utf-8") as f:
         f.write(svg)

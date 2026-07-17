@@ -25,9 +25,12 @@ My work sits at the intersection of <b>AI, robotics, embedded systems, and softw
 </p>
 
 <!-- Typing terminal card: whoami, focus, build pipeline, availability.
-     Stays dark on both themes (terminals are dark). -->
+     Theme-aware: dark terminal on dark mode, light terminal on light mode. -->
 <p align="center">
-  <img src="./assets/terminal.svg" width="680" alt="Terminal: whoami — Shikhar Jaiswal; focus — AI, Robotics, Unmanned Systems, Emerging Technologies; pipeline — concept to prototype to scalable platforms; status — freelancing, consulting, collaboration available" />
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="./assets/terminal-light.svg">
+    <img src="./assets/terminal.svg" width="760" alt="Terminal: whoami — Shikhar Jaiswal; focus — AI, Robotics, Unmanned Systems, Emerging Technologies; pipeline — concept to prototype to scalable platforms; status — freelancing, consulting, collaboration available" />
+  </picture>
 </p>
 
 <!-- Animated capabilities: one live icon per skill tag below -->
